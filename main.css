@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./ImagesComprimidas/bird-ga5d9ed257_1920.jpg);
+}
+
+.form-border {
+  max-width: 60%;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+}
+.container #form {
+  display: flex;
+  flex-direction: column;
+}
+.container #form .form-item {
+  display: flex;
+  flex-direction: column;
+}
+.container #form .form-item input,
+.container #form .form-item label,
+.container #form .form-item button {
+  width: 100%;
+  margin: 0 auto;
+  height: 40px;
+}
+.container #form .form-item input {
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */

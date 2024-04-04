@@ -1,0 +1,31 @@
+@use "reset";
+@use "background";
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+
+  #form {
+    display: flex;
+    flex-direction: column;
+
+    .form-item {
+      display: flex;
+      flex-direction: column;
+
+      input,
+      label,
+      button {
+        width: 100%;
+        margin: 0 auto;
+        height: 40px;
+      }
+
+      input {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
